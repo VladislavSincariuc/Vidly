@@ -244,6 +244,14 @@
     <Compile Include="Migrations\201705182045295_AddDrivingLicenseToAppUser.Designer.cs">
       <DependentUpon>201705182045295_AddDrivingLicenseToAppUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705191644224_AddPhoneToRegister.cs" />
+    <Compile Include="Migrations\201705191644224_AddPhoneToRegister.Designer.cs">
+      <DependentUpon>201705191644224_AddPhoneToRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705191652279_AddPhoneString.cs" />
+    <Compile Include="Migrations\201705191652279_AddPhoneString.Designer.cs">
+      <DependentUpon>201705191652279_AddPhoneString.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -544,6 +552,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705182045295_AddDrivingLicenseToAppUser.resx">
       <DependentUpon>201705182045295_AddDrivingLicenseToAppUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705191644224_AddPhoneToRegister.resx">
+      <DependentUpon>201705191644224_AddPhoneToRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705191652279_AddPhoneString.resx">
+      <DependentUpon>201705191652279_AddPhoneString.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
