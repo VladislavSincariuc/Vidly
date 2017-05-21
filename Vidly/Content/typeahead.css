@@ -42,3 +42,7 @@
     color: #fff;
     background-color: #0097cf;
 }
+
+.tt-container {
+    position: relative;
+}
